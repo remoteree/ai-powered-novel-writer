@@ -1,0 +1,26 @@
+{
+  "name": "ai-novel-writer",
+  "version": "1.0.0",
+  "description": "An AI powered novel writer project",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production"
+  },
+  "keywords": ["AI", "novel", "writer"],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.64.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.7.1",
+    "babel-loader": "^8.2.3",
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "@babel/preset-react": "^7.14.5"
+  }
+}
